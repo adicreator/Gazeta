@@ -5,12 +5,14 @@
 
 /*HEADER*/
 header{
+
 	width: 100vw;
 	height: 150px;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 	background: #a5050f;
+
 
 }
 
@@ -145,5 +147,5 @@ main{
 	width: 100%;
 	justify-content: flex-end;
 
-
+	color: white;
 }
