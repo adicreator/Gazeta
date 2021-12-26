@@ -1,0 +1,87 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+
+
+
+.container{
+	width: 80%;
+	height: 750px;
+	display: flex;
+	margin: 0 auto;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	
+
+}
+
+.box{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 350px;
+	height: 400px;
+	border: 2px solid black;
+
+}
+
+.username1{
+	width: 300px;
+	height: 30px;
+	display: flex;
+	justify-content: flex-start;
+}
+
+.username1 {
+	font-size: 18pt;
+	font-family: 'Signika', sans-serif;
+}
+
+.usernameinput{
+	width: 300px;
+	height: 30px;
+}
+
+.password1{
+	width: 300px;
+	height: 30px;
+	display: flex;
+	justify-content: flex-start;
+}
+.password1{
+	font-size: 18pt;
+	font-family: 'Signika', sans-serif;
+}
+
+.passi{
+	width: 300px;
+	height: 30px;
+}
+
+.buttoni{
+	width: 300px;
+	height: 30px;
+	background: #086abd;
+	color: white;
+}
+
+.register{
+	width: 300px;
+	display: flex;
+	height: 30px;
+	justify-content: flex-start;
+	margin-top: 50px;
+}
+
+.register p{
+	color: black;
+	text-decoration: none;
+}
+
+.register a:link{
+	text-decoration: none;
+}
