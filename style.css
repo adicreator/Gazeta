@@ -22,6 +22,19 @@ header{
 
 }
 
+
+header .Sportish{
+
+	width: 100%;
+	height: 150px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	background: #088c03;
+
+
+}
+
 .header1{
 	width: 100%;
 	height: 120px;
@@ -283,4 +296,202 @@ main{
 	height: 600px;
 	background: #088c03;
 	margin-top: 50px;
+	display: flex;
+	position: relative;
+	justify-content: center;
+	align-items: center;
+
+}
+.Sport h2{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	border-bottom: 2px solid white;
+	color: white;
+	width: 100%;
+	font-family: 'Signika', sans-serif;
+
+}
+.pSport{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	justify-content: space-between ;
+	height: 510px;
+	width: 85%;
+	margin-top: 30px;
+
+}
+.pS1{
+	width: 22%;
+	height: 483px;
+	display: flex;
+	flex-direction: column;
+}
+
+.pS1 img{
+
+}
+
+.pS1 h3{
+	color: white;
+	font-family: 'Signika', sans-serif;
+	line-height: 135%;
+	font-size: 16pt;
+	margin-top: 20px;
+}
+
+.Opinione{
+	width: 100%;
+	position: relative;
+	margin-top: 30px;
+
+}
+.opinionet{
+	width: 100%;
+	height: 40px;
+	background: #a5050f;
+	color: white;
+
+
+}
+.opinionet h2{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	
+}
+
+.OpinioneP{
+	margin-top: 40px;
+	width: 100%;
+	display: flex;
+	height: 500px;
+	justify-content: space-between;
+	justify-content: center;
+
+}
+
+.O1{
+	width: 30%;
+	height: 350px;
+}
+
+.O1 h3{
+	font-size: 16pt;
+	font-family: 'Signika', sans-serif;
+	width: 350px;
+	margin-top: 30px;
+	text-align: center;
+}
+
+/*TEKNOLOGJI*/
+.Tech{
+	width: 100%;
+	position: relative;
+
+}
+.techt {
+	height: 40px;
+	background: #086abd;
+	color: white;
+	width: 100%;
+}
+
+.techt h2{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	
+}
+
+.techp{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	margin-top: 20px;
+	height: 530px;
+	justify-content: space-between;
+}
+.T1{
+	width: 49.5%;
+	height: 510px;
+	display: flex;
+	flex-direction: row;
+
+}
+.T1 img{
+	width: 100%;
+	height: 510px;
+	position: relative;
+}
+
+.T1B{
+	position: absolute;
+	width: 49.5%;
+	height: 100px;
+	background:  rgba(11, 80, 157, 0.6);
+	bottom: 18px;
+}
+.T1B h3{
+	font-size: 24pt;
+	color: white;
+	text-align: center;
+	margin-top: 30px;
+	margin-right: 200px;
+}
+
+.T2{
+	width: 49.5%;
+	height: 510px;
+	display: flex;
+	flex-direction: column;
+	border: 1px solid red;
+	justify-content: space-between;
+}
+
+.T2U{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	height: 250px;
+	border: 1px solid black;
+}
+
+.TDU1{
+	width: 49.5%;
+	height: 250px;
+	display: flex;
+
+}
+
+.TDU1 img{
+	width: 99.5%;
+	height: 250px;
+	position: relative;
+	
+}
+
+.TDU1T {
+	width: 49.5%;
+	height: 50px;
+	background:  rgba(11, 80, 157, 0.6);
+	position: absolute;
+	bottom: 15px;
+}
+
+
+
+
+
+
+
+
+.T2D{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	height: 250px;
+	border: 1px solid blue
+
 }
